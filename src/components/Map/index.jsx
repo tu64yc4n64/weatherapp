@@ -18,7 +18,7 @@ function Map() {
     const handleCityClick = ({ name }) => {
         dispatch(setCity(name));
         setIsModalOpen(true); // Haritaya tıklandığında modal açılsın
-        navigate(`/?city=${name.toLowerCase()}`);
+        navigate(`?city=${name.toLowerCase()}`);
     };
 
     const handleCloseModal = () => {
