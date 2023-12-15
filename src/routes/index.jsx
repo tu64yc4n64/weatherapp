@@ -4,7 +4,7 @@ import HomePage from "../pages/Home";
 const routes = createBrowserRouter([
 
     {
-        path: "/weatherapp",
+        path: "/",
         element: <HomePage />
     }
 
