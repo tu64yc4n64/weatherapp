@@ -1,0 +1,23 @@
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ReactModal__Content {
+    width: 20%;
+    inset: 0 !important;
+    position: relative !important;
+    height: fit-content;
+    border-radius: 20px !important;
+    border: none  !important;
+    box-shadow: 0 0 40px -20px #333;
+   
+    padding: 30px !important;
+}
+@media screen and (max-width: 767px) {
+  .ReactModal__Content {
+    width: 90%;
+    
+  }
+  }
+
