@@ -1,8 +1,9 @@
 # If you want to see my project
 https://unique-empanada-e873c5.netlify.app/
+
 # Used Technologies
-"vite": "^5.0.0"
-"react": "^18.2.0",
+- "vite": "^5.0.0"
+- "react": "^18.2.0",
 "react-dom": "^18.2.0",
 "react-modal": "^3.16.1",
 "react-redux": "^9.0.2",
