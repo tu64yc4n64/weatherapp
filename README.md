@@ -4,17 +4,17 @@ https://unique-empanada-e873c5.netlify.app/
 # Used Technologies
 - "vite": "^5.0.0"
 - "react": "^18.2.0",
-"react-dom": "^18.2.0",
-"react-modal": "^3.16.1",
-"react-redux": "^9.0.2",
-"react-router-dom": "^6.20.1",
-"turkey-map-react": "^1.2.1",
-"@types/react": "^18.2.37",
-"@types/react-dom": "^18.2.15",
-"autoprefixer": "^10.4.16",
-"eslint": "^8.53.0",
-"postcss": "^8.4.32",
-"tailwindcss": "^3.3.6",
+- "react-dom": "^18.2.0",
+- "react-modal": "^3.16.1",
+- "react-redux": "^9.0.2",
+- "react-router-dom": "^6.20.1",
+- "turkey-map-react": "^1.2.1",
+- "@types/react": "^18.2.37",
+- "@types/react-dom": "^18.2.15",
+- "autoprefixer": "^10.4.16",
+- "eslint": "^8.53.0",
+- "postcss": "^8.4.32",
+- "tailwindcss": "^3.3.6",
 
 
 
