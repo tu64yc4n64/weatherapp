@@ -1,0 +1,8 @@
+
+@media screen and (max-width: 767px) {
+
+#svg-turkiye-haritasi-container-tooltip {
+    display: none !important;
+}
+  }
+

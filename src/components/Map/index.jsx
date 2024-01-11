@@ -6,6 +6,7 @@ import { setCity } from '../../stores/city';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import "./style.css"
 
 function Map() {
 
@@ -32,6 +33,7 @@ function Map() {
                 customStyle={{ idleColor: "#c20f2d", hoverColor: "#dc3522" }}
                 showTooltip={true}
                 onClick={handleCityClick}
+
             />
 
             <CityModal

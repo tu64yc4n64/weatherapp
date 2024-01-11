@@ -5,7 +5,8 @@ function Header() {
         <div className='w-100[100%] flex justify-center'>
             <div className='
         lg:w-[20%]
-        w-[100%]
+        md:w-[100%]
+        w-[390px]
         text-center
         text-[#fff]
         py-[20px]
