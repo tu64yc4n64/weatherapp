@@ -6,6 +6,7 @@ import temperaturepng from "../../assets/images/icons/temperature.png"
 import windypng from "../../assets/images/icons/windy.png"
 import sunrisepng from "../../assets/images/icons/sunrise.png"
 import moonrisepng from "../../assets/images/icons/moonrise.png"
+
 const CityModal = ({ cityName, isOpen, onClose }) => {
     const weatherSituation = useSelector(item => item.weather.weather)
     const sunset = useSelector(item => item.time.sunset)
@@ -20,7 +21,7 @@ const CityModal = ({ cityName, isOpen, onClose }) => {
 
         >
             {weatherSituation !== "" && (
-                <div>
+                <div loading="lazy">
                     <h2 className='text-[24px] font-[600] pb-[20px]'>{cityName} Hava Durumu</h2>
                     <div className='flex items-center pb-[15px]'>
                         <img className='w-[34px] h-[34px] mr-[10px]' src={thermometerpng} alt="" />
@@ -69,10 +70,6 @@ const CityModal = ({ cityName, isOpen, onClose }) => {
                             <span className='text-[14px] font-[400]'>Ayın Doğuş Zamanı</span>
                         </div>
                     </div>
-
-
-
-
                 </div>
             )}
 

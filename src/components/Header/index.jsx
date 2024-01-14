@@ -17,7 +17,7 @@ function Header() {
         top-0
         '>
 
-                <h2 className='text-[30px] font-[600]'>Turkey Map App</h2>
+                <h2 className='text-[30px] font-[600]'>Turkiye Weather  App</h2>
             </div>
         </div>
     )

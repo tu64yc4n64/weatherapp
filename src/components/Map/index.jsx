@@ -11,7 +11,7 @@ import "./style.css"
 function Map() {
 
     const city = useSelector(item => item.city.city)
-    const [isModalOpen, setIsModalOpen] = useState(false); // Yeni durumu ekleyin
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const dispatch = useDispatch();
     const navigate = useNavigate()
@@ -44,5 +44,7 @@ function Map() {
         </div>
     );
 }
+
+
 
 export default Map;
